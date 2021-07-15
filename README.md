@@ -1,4 +1,4 @@
-# nvidia-xrun (modified to work on Debian as part of nvidia-xrun DUR package
+# nvidia-xrun (modified to work on Debian as part of nvidia-xrun DUR package)
 These utility scripts aim to make the life easier for nvidia cards users.
 It started with a revelation that bumblebee in current state offers very poor performance. This solution offers a bit more complicated procedure but offers a full GPU utilization(in terms of linux drivers)
 
@@ -88,18 +88,8 @@ With this you do not need to specify the app and you can simply run:
 
     nvidia-xrun
 
-## AUR Package
-The Arch Linux User Repository package can be found [here](https://aur.archlinux.org/packages/nvidia-xrun/).
-
-## COPR Repository for Enterprise Linux, Fedora, Mageia, and openSUSE
-The RPM packages and repository details for all supported distributions can be found on the [ekultails/nvidia-xrun](https://copr.fedorainfracloud.org/coprs/ekultails/nvidia-xrun/) COPR overview page.
-
-### Install (Enterprise Linux and Fedora)
-
-```
-sudo dnf copr enable ekultails/nvidia-xrun
-sudo dnf install nvidia-xrun
-```
+## Debian MPR Package
+The MPR package can be found [here](https://mpr.hunterwittenborn.com/packages/nvidia-xrun/).
 
 ## Troubleshooting
 ### Steam issues
